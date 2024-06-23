@@ -2,10 +2,10 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Rostelecom Application',
-    short_name: 'Rostelecom App',
+    name: 'Balenciaga Application',
+    short_name: 'Balenciaga App',
     description:
-      'Rostelecom магазин одежды, аксесуаров, концелярии и сувениров',
+      'Balenciaga магазин одягу, аксесуарiв, концелярiй та сувенiрiв',
     start_url: '/',
     background_color: '#fff',
     theme_color: '#fff',
