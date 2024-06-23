@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'Balenciaga Application',
     short_name: 'Balenciaga App',
     description:
-      'Balenciaga магазин одягу, аксесуарiв, концелярiй та сувенiрiв',
+      'Balenciaga магазин одягу, аксесуарів, концелярій та сувенірів',
     start_url: '/',
     background_color: '#fff',
     theme_color: '#fff',
