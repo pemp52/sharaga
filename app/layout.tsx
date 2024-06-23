@@ -18,8 +18,8 @@ import './globalStyles/breadcrumbs.css'
 import './globalStyles/map.css'
 
 export const metadata: Metadata = {
-  title: 'Rostelecom',
-  description: 'Rostelecom магазин одежды, аксесуаров, концелярии и сувениров',
+  title: 'Balenciaga',
+  description: 'Balenciaga магазин одягу, аксесуарів, концелярії та сувенірів',
 }
 
 export const viewport: Viewport = {
