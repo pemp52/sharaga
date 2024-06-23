@@ -28,11 +28,11 @@ export async function POST(req: Request) {
       data: {
         amount: {
           value: reqBody.amount,
-          currency: 'RUB',
+          currency: 'UAH',
         },
         confirmation: {
           type: 'redirect',
-          return_url: 'https://rostelecom-shop.vercel.app/payment-success',
+          return_url: 'https://balenciaga-shop.vercel.app/payment-success',
         },
         capture: true,
         description: reqBody.description,
