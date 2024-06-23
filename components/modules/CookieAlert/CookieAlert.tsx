@@ -9,14 +9,14 @@ const CookieAlert = ({
   const { lang, translations } = useLang()
 
   const handleAcceptCookie = () => {
-    document.cookie = 'CookieBy=Rostelecom; max-age=' + 60 * 60 * 24 * 30
+    document.cookie = 'CookieBy=Balenciaga; max-age=' + 60 * 60 * 24 * 30
 
     if (document.cookie) {
       setCookieAlertOpen(false)
     } else {
       toast.error(
         // eslint-disable-next-line max-len
-        'Файл cookie не может быть установлен! Пожалуйста, разблокируйте этот сайт с помощью настроек cookie вашего браузера..'
+        'Файл cookie не може бути встановлений! Будь ласка, розблокуйте цей сайт за допомогою налаштувань cookie вашого браузера..'
       )
     }
   }
